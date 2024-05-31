@@ -1,14 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsole", "Bonsole\Bonsole\Bonsole.csproj", "{8DBB46ED-E612-485D-B8EB-45EEC196BADF}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsole", "Bonsole\Bonsole\Bonsole.csproj", "{8DBB46ED-E612-485D-B8EB-45EEC196BADF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsole.Android", "Bonsole\Bonsole.Android\Bonsole.Android.csproj", "{7737A853-6875-4B7B-9A92-39F5F74D6239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsole.Android", "Bonsole\Bonsole.Android\Bonsole.Android.csproj", "{7737A853-6875-4B7B-9A92-39F5F74D6239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsole.Desktop", "Bonsole\Bonsole.Desktop\Bonsole.Desktop.csproj", "{A141F7F6-3336-4C3A-B14C-96E8FA787325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsole.Desktop", "Bonsole\Bonsole.Desktop\Bonsole.Desktop.csproj", "{A141F7F6-3336-4C3A-B14C-96E8FA787325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsole.iOS", "Bonsole\Bonsole.iOS\Bonsole.iOS.csproj", "{452B9F67-D4C2-43E9-87A3-A5124FB0483D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsole.iOS", "Bonsole\Bonsole.iOS\Bonsole.iOS.csproj", "{452B9F67-D4C2-43E9-87A3-A5124FB0483D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsole.Browser", "Bonsole\Bonsole.Browser\Bonsole.Browser.csproj", "{D8B97E4D-0EE3-4AFF-AFC7-3E05A243E66B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsole.Browser", "Bonsole\Bonsole.Browser\Bonsole.Browser.csproj", "{D8B97E4D-0EE3-4AFF-AFC7-3E05A243E66B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BonsaiApi", "BonsaiApi\BonsaiApi.csproj", "{ADD20E55-FE9F-467E-B9FF-76FFDAE94855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonsole.Console", "Bonsole.Console\Bonsole.Console.csproj", "{8C0E9617-AA44-456B-BEA5-6BF0EA55E92B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bonsole.ImGui", "Bonsole.ImGui\Bonsole.ImGui.csproj", "{2E04956E-E302-4FC0-A121-CB7AC4DE8991}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,5 +49,23 @@ Global
 		{D8B97E4D-0EE3-4AFF-AFC7-3E05A243E66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8B97E4D-0EE3-4AFF-AFC7-3E05A243E66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B97E4D-0EE3-4AFF-AFC7-3E05A243E66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD20E55-FE9F-467E-B9FF-76FFDAE94855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD20E55-FE9F-467E-B9FF-76FFDAE94855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD20E55-FE9F-467E-B9FF-76FFDAE94855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD20E55-FE9F-467E-B9FF-76FFDAE94855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0E9617-AA44-456B-BEA5-6BF0EA55E92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0E9617-AA44-456B-BEA5-6BF0EA55E92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0E9617-AA44-456B-BEA5-6BF0EA55E92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0E9617-AA44-456B-BEA5-6BF0EA55E92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E04956E-E302-4FC0-A121-CB7AC4DE8991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E04956E-E302-4FC0-A121-CB7AC4DE8991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E04956E-E302-4FC0-A121-CB7AC4DE8991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E04956E-E302-4FC0-A121-CB7AC4DE8991}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A50B37AA-628D-48D6-804B-E00668BBE67F}
 	EndGlobalSection
 EndGlobal
